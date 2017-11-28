@@ -3,7 +3,7 @@
         <div id=brand__ID>
             <a class="navbar-brand d-none d-lg-inline-block" onclick="$vm.nav_load_module('panel_main_home');">
             	<div class=large_logo__ID>
-					<img width=360 src='images/logo.gif' style='margin-top:10px;margin-bottom:10px'></img>
+					<img width=30% src ='images/wf_logo.PNG' style='padding-right:50px'><img width=360 src='images/logo.gif' style='margin-top:10px;margin-bottom:10px'></img>
     	        </div>
             </a>
             <a class="navbar-brand d-lg-none" onclick="$vm.nav_load_module('panel_main_home');">
@@ -16,23 +16,26 @@
         <div id="navbars__ID" class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_home');"><i class="fa fa-home"></i> Home</a></li>
-				<li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="a_nav_dropdown__ID" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Information</a>
-                    <div class="dropdown-menu" aria-labelledby="a_nav_dropdown__ID">
-                        <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_purpose-of-research');">Purpose of Research</a>
+
+				<li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_about-the-lab-study');">About the Lab Study</a></li>
+				<li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_about-the-home-study');">About the Home Study</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="a_nav_dropdown__ID" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Information</a>
+            <div class="dropdown-menu" aria-labelledby="a_nav_dropdown__ID">
+            <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_purpose-of-research');">Purpose of Research</a>
 						<a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_about-woolcock-research');">About the Woolcock Institute of Medical Research</a>
 						<a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_researchers');">Researchers</a>
 						<a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_news');">News</a>
                     </div>
                 </li>
-				<li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_about-the-lab-study');">About the Lab Study</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_about-the-home-study');">About the Home Study</a></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('panel_main_contact-us');">Contact Us</a></li>
                 <!--<li><a class="nav-link" onclick="$vm.nav_click_process('vm_signinout');" name=signinout><i class="fa fa-user"></i> Sign In/Out</a></li>-->
             </ul>
+            <!--
 			<form id=form__ID class="form-inline my-2 my-xl-0">
 				<input id=vm_system_search class="form-control mr-sm-2" type="text" placeholder="Search modules..." aria-label="Search modules..." />
 			</form>
+    -->
         </div>
     </nav>
     <script>
@@ -88,7 +91,7 @@
         }
 		#navbars__ID a{
 			color:#000;
-            cursor:pointer;
+      cursor:pointer;
         }
 		#navbars__ID a:hover{
 			color:red;
@@ -103,18 +106,18 @@
 	            cursor:pointer;
 	        }
 			#header__ID a:hover{
-				color:red;
-	            cursor:pointer;
+			color:red;
+      cursor:pointer;
 	        }
-	        #navbars__ID{
-		        padding-top:5px;
-		        padding-left:5px;
+      #navbars__ID{
+        padding-top:5px;
+        padding-left:5px;
 	        }
 			#navbars__ID a{
 				color:#fff;
 	        }
-	        #form__ID{
-		        padding-right:0px;
+      #form__ID{
+      padding-right:0px;
 	        }
 		}
     </style>
