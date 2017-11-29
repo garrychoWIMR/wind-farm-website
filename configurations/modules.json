@@ -1,7 +1,7 @@
 {
 	"modules":
 	{
-		"home":	          			{"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/home.html","name_for_search":"Home page"},
+		"home":	          			{"url":"modules/task/home.html","name_for_search":"Home page"},
 		"purpose-of-research":		{"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/purpose-of-research.html","name_for_search":"Purpose of research"},
 		"about-woolcock-research":	{"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/about-woolcock-research.html","name_for_search":"About woolcock research"},
 		"researchers":				{"url":"https://woolcock-imr.github.io/wind-farm-website-modules-by-garry/modules/researchers.html","name_for_search":"Researchers"},
